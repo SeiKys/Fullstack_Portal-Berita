@@ -59,7 +59,7 @@ Pastikan Apache dan MySQL pada XAMPP masih dalam keadaan aktif.
 
 Buka browser, lalu akses URL berikut:
 
-Halaman utama: http://localhost/Fullstack_PortalBerita/home.html
+Halaman utama: http://localhost/Fullstack_PortalBerita/index.html
 
 Halaman politik: http://localhost/Fullstack_PortalBerita/Politik.html
 
