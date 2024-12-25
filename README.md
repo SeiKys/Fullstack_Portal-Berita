@@ -9,6 +9,7 @@ Nama 	: Muhamad Rifki Aulia Rahman, Email : 123rifky88@gmail.com
 
 Software yang diperlukan Visual Studio Code, Xampp, Browser.
 Download semua software di atas, serta download semua file dan masukan kedalam folder local : C terus pilih ke folder Xampp - dan pilih folder Htdoc.
+
 Tutorial Menjalankan Proyek Fullstack Portal Berita
 
 Berikut adalah langkah-langkah untuk menjalankan proyek Fullstack Portal Berita secara lengkap dan terstruktur:
