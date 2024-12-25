@@ -3,6 +3,7 @@
 Biodata Mahasiswa universitas Krisnadwipayana dalam melaksanakan magang mandiri kampus merdeka batch 7 selama 4 bulan di PT. Winnicode Garuda Teknologi Devisi Fullstack Developer.
 Kelompok :
 Nama 	: Alka Prayoga, Email : alkhaprayogha15@gmail.com 
+
 Nama 	: Muhamad Rifki Aulia Rahman, Email : 123rifky88@gmail.com
 
 Software yang diperlukan Visual Studio Code, Xampp, Browser.
