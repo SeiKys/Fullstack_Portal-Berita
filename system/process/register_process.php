@@ -51,6 +51,7 @@ if ($count > 0) {
 
     if ($stmt->execute()) {
         echo json_encode(array("status" => "success", "message" => "Registration successful!"));
+        header("Location: ../../login.html");
         exit(); // Hentikan eksekusi setelah mengembalikan respons
     } else {
         echo json_encode(array("status" => "error", "message" => "Error: " . $stmt->error));
@@ -58,7 +59,6 @@ if ($count > 0) {
 
     $stmt->close(); // Tutup pernyataan setelah selesai
 }
-header("Location: ../../login.html");
 exit();
 // Tutup koneksi
 $stmt->close();
