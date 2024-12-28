@@ -58,6 +58,9 @@ if ($count > 0) {
 
     $stmt->close(); // Tutup pernyataan setelah selesai
 }
-
-$conn->close(); // Tutup koneksi database
+header("Location: ../../login.html");
+exit();
+// Tutup koneksi
+$stmt->close();
+$conn->close();
 ?>
