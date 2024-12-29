@@ -44,18 +44,31 @@ mysql -u root
 
 Setelah masuk ke MySQL shell, buat database dan tabel dengan perintah berikut:
 
-CREATE DATABASE use_db;
+CREATE DATABASE user_db;
 
-USE use_db;
+USE user_db;
 
-CREATE TABLE berita (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    judul VARCHAR(255) NOT NULL,
-    konten TEXT NOT NULL,
-    gambar VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE users (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
 );
 
+lalu buat database admin dan tabel admin dengan perintah berikut :
+
+CREATE DATABASE admin_db;
+
+USE admin_db;
+
+CREATE TABLE admin (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
 4. Menjalankan Proyek
 
 Pastikan Apache dan MySQL pada XAMPP masih dalam keadaan aktif.
